@@ -1,0 +1,57 @@
+/* sample of inheritance
+    color is inheritable
+    background-color is not inheritable*/
+footer{
+    /*if all rgb values are the same ie #333333 you can use a shortcut
+       of just one digit #333*/
+    background-color: #333; 
+    color: yellow;
+}
+
+/* footer{
+    color: white;
+} */
+
+footer, footer a{
+    color: white;
+}
+
+nav ul{
+    background-color: #ddd;
+}
+
+nav ul li{
+    border-bottom: 1px solid black;
+}
+
+nav ul li a{
+    text-decoration: none; /* remove underline on anchor tag */
+    color: #333;
+}
+
+/* Class specificity
+types: user  class
+       psuedo class, these are attach to elements
+       
+anchor psuedo classes (note order is important on these classes
+a:link unused link
+a:hover used when your cursor hovers over the link
+a:visited used when you have previously used the link
+a:active used when you are clicking on the link*/
+nav ul li a:hover{
+    color:blue;
+    font-weight: bold;
+}
+
+/*targeted user class
+ you still need to add the class=".." to your tag in your content*/
+ ul.bulletremoval{
+    list-style-type: none; /* remove ul bullets*/
+    padding: 0px;
+} 
+
+/* user class 
+.bulletremoval{
+    padding: 10px;
+    list-style-type: none;
+}*/
