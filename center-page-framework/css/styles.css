@@ -1,0 +1,71 @@
+body{
+    background-color:white;
+}
+
+/* 0 top/bottom auto right/left 
+       auto equalizes the area to the right and left of the requested
+         container area (horizontal)*/
+    /* how wide do you want your container
+       we will use the value 960 for our course*/
+
+.container{
+    margin: 0 auto; 
+    width: 960px;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+/* Typography */
+h1,h2{
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #747474;
+}
+
+h1{
+    font-size:40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+footer h2{
+    color: lime;
+}
+
+/* layout */
+nav{
+    margin-top: 40px;
+    background-color: #ddd;
+}
+header{
+    margin-top: 24px;
+    background-color: #ddd;
+    height: 450px;
+}
+
+main{
+    height:800px;
+    background-color: #ddd;
+    margin-top: 24px;
+}
+
+main section{
+    height: 200px;
+    background-color: #ddd;
+    border: 2px solid black;
+    margin: 30px;
+    /* 30 + 2+ 0+ w + 0+ 2+ 30 =960
+    64 + w = 960
+    w = 960-64 =896 */
+    width:896px;
+}
+
+footer{
+    height:150px;
+    background-color: red;
+    margin: 24px 0;
+}
