@@ -1,0 +1,61 @@
+body {
+    background: rgba(0, 0, 0, 0.01);
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 100%;
+    line-height: 1.5
+}
+
+
+/* create classes to represent content on the web page*/
+body > div{
+    background-color: #c0c0c0;
+}
+
+/* 20 + 0 + 0 + w + 0 + 0 + 10 
+  +
+   10 + 0 + 0 + w + 0 + 0 + 20 
+   = 960
+   
+   60 + 2w = 960
+   w = (960-60)/2 = 450*/
+.red-paint, .blue-paint{
+    width:450px;
+    height:200px;
+}
+.red-paint{
+
+    background-color: red;
+    margin: 20px 10px 20px 20px; /* top right bottom left */
+}
+.blue-paint{
+    background-color: blue;
+    margin: 20px 20px 20px 10px;
+}
+
+.black-paint{
+    margin:0px 20px 20px 20px;
+    /* 20 + 0 + 0 + w + 0 + 0 + 20 = 960
+      w = 960 - 40 = 920 */
+    width:920px;
+    height: 50px;
+    background-color: black;
+}
+
+/* set the main area so that element within the main area
+     are side by side: display:flex
+   any element with flex is referred to as the parent
+   any element within the parent is placed side by side
+     
+    to handle the stacking in a flex parent so that
+       elements within the parent automatically wrap to
+       the next line IF there is insufficient room on the
+       previous line, use flex-wrap: wrap*/
+main, footer{
+    display: flex;
+    flex-wrap: wrap;
+}
