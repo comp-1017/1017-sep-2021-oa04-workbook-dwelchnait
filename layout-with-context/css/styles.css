@@ -1,0 +1,66 @@
+/* basic center page format */
+
+body {
+	background-color: white;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+/* Typography */
+/*related to the presentation of your text styling*/
+
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+h1, h2{
+	font-weight: bold;
+}
+
+h1{
+	font-size: 24px;
+}
+
+h2{
+	font-size: 18px;
+}
+/* Layout */
+/*related to the physical positioning of your content*/
+
+.site-header{
+	margin-top: 15px;
+}
+
+.site-header nav{
+	margin: 15px;
+}
+
+.site-header nav li{
+	border: 2px solid #333;
+	text-align: center;
+	width: 170px;
+	margin-left: 15px;
+
+}
+
+main{
+	display: flex;
+}
+
+main section{
+	border: 2px solid #333;
+	padding: 15px;
+	width: 423.5px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.menu{
+	display: flex;
+}

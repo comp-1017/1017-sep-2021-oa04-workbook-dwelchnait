@@ -1,0 +1,58 @@
+body{
+    background-color:white;
+}
+
+/* 0 top/bottom auto right/left 
+       auto equalizes the area to the right and left of the requested
+         container area (horizontal)*/
+    /* how wide do you want your container
+       we will use the value 960 for our course*/
+
+.container{
+    margin: 0 auto; 
+    width: 960px;
+    font-size: 100%;
+    line-height: 1.5;
+    /* using the google font Lato for the entire page */
+    font-family: 'Lato', sans-serif;
+    
+    text-align:center;
+    color: #333;
+}
+
+/* Typography */
+h1{
+    font-size: 90px;
+}
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+h2, p{
+    color: #9b9b9b;
+}
+/* layout */
+
+main{
+    margin-top: 100px;
+    margin-bottom: 26px;
+}
+
+.section-img{
+    width:90px;
+}
+
+.footer-img{
+    margin-right: 20px;
+    width: 40px;
+}
